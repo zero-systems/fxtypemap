@@ -1,6 +1,6 @@
 # FxTypeMap
 
-It's simple typemap based on crate [fxhash](https://crates.io/crates/fxhash).
+It's simple typemap, based on crate [fxhash](https://crates.io/crates/fxhash).
 
 ## Usage
 
