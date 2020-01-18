@@ -1,0 +1,18 @@
+[package]
+name = "fxtypemap"
+description = "A fast type map based on internal hasher used in Firefox and Rustc."
+version = "0.1.0"
+readme = "README.md"
+authors = ["Øsystems"]
+repository = "https://github.com/zero-systems/fxtypemap"
+keywords = [ "map", "hash", "typemap" ]
+categories = [ "algorithms" ]
+edition = "2018"
+license = "MIT"
+
+[lib]
+name = "fxtypemap"
+path = "src/lib.rs"
+
+[dependencies]
+fxhash = "0.2.1"
